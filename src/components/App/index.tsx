@@ -191,10 +191,10 @@ function App() {
   }, []);
 
   useEffect(() => {
-    console.log("symbol", symbols);
     contactSocket();
-  // eslint-disable-next-line react-hooks/exhaustive-deps
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [symbols]);
+
   return (
     <div className="App">
       <h1>Delta Stack Exchange</h1>

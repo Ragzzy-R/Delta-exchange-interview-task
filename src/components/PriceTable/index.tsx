@@ -29,6 +29,7 @@ export function PriceTable({ data }: Props): ReactElement {
       </div>
     );
   };
+
   const getTable = () => {
     const sortedData = data.sort(
       (a: PriceTableData, b: PriceTableData) =>
