@@ -1,0 +1,24 @@
+/* demo styles */
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400&display=swap');
+body {
+  /* background: -webkit-linear-gradient(left, #a04970, #6d6c83,#3b7f99);
+    background: linear-gradient(to right, #a04970, #6d6c83,#3b7f99); */
+  /* background: -webkit-linear-gradient(left, #00ff87, #60efff);
+    background: linear-gradient(to right, #00ff87, #60efff); */
+  background-color: #0B2027;
+  font-family: "Work Sans", sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+  color: #F6F1D1;
+  font-size: 1.5rem;
+  min-height: 1vh;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  min-height: 400px;
+}
