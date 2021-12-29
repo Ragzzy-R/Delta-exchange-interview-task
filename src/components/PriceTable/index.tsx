@@ -1,5 +1,4 @@
 import React, { ReactElement } from "react";
-import Skeleton, { SkeletonTheme } from "react-loading-skeleton";
 import ReactLoading from "react-loading";
 import "./price-table.css";
 

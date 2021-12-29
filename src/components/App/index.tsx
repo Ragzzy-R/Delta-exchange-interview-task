@@ -1,9 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { PriceTable, PriceTableData } from "../PriceTable";
-import Skeleton, { SkeletonTheme } from "react-loading-skeleton";
 import ReactLoading from "react-loading";
-
-import "react-loading-skeleton/dist/skeleton.css";
 
 import { SocketController } from "../../utils/socketController";
 import "./App.css";
